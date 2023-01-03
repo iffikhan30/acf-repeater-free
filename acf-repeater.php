@@ -16,11 +16,8 @@ if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 if( !class_exists('acf_plugin_repeater') ):
 
 class acf_plugin_repeater {
-	
 	// vars
 	var $settings;
-	
-	
 	/*
 	*  __construct
 	*
@@ -33,7 +30,6 @@ class acf_plugin_repeater {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
 	function __construct() {
 		
 		// vars
